@@ -26,10 +26,9 @@ Adiciona arquivo para o repositório local do git, saindo de 'staging'.
 
 - **-m:**  
 
-
+![IMAGEM](https://miro.medium.com/max/724/1*OqKfKe3mqCRbaWT2Y8YDOQ.png)
 
 - rm --cached <file> : esse comando é usado para remover o arquivo do stage.
 
   
 
-![](https://ichi.pro/assets/images/max/724/1*OqKfKe3mqCRbaWT2Y8YDOQ.png)
