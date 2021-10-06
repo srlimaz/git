@@ -32,4 +32,4 @@ Adiciona arquivo para o repositório local do git, saindo de 'staging'.
 
   
 
-![](C:\Users\alvar\OneDrive\Ambiente de Trabalho\print\1_OqKfKe3mqCRbaWT2Y8YDOQ.png)
+![](https://ichi.pro/assets/images/max/724/1*OqKfKe3mqCRbaWT2Y8YDOQ.png)
