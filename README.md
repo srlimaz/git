@@ -38,6 +38,22 @@ Envia (empurra) o repositório local para o repositório remoto.
 
 Baixa (puxa) o repositório remoto para o repositório local.
 
+**CHECKOUT**
+
+Serve para alternar entre as branch. 
+
+_EX: git checkout [branch]_
+
+**MERGE**
+
+
+
+**STASH**
+
+
+
+
+
 ### ILUSTRAÇÃO PARA AUXILIAR O ENTENDIMENTO
 
 ![IMAGEM](https://miro.medium.com/max/724/1*OqKfKe3mqCRbaWT2Y8YDOQ.png)
