@@ -40,17 +40,19 @@ Baixa (puxa) o repositório remoto para o repositório local.
 
 **CHECKOUT**
 
-Serve para alternar entre as branch. 
+Serve para alternar entre as branch.  _EX: git checkout [branch]_
 
-_EX: git checkout [branch]_
+Lembre-se 
+
+- -b: juntamente com 'checkout' irá criar uma nova branch e ao mesmo tempo alternaria para a nova branch.
 
 **MERGE**
 
 
 
-**STASH**
+**WORK DIRECTORY**
 
-
+Lugar de trabalho onde os arquivos estão sendo alterados por você, antes mesmo de serem enviados para staging.
 
 
 
