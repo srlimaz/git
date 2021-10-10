@@ -44,15 +44,27 @@ Serve para alternar entre as branch.  _EX: git checkout [branch]_
 
 Lembre-se 
 
-- -b: juntamente com 'checkout' irá criar uma nova branch e ao mesmo tempo alternaria para a nova branch.
+- -b: é um flag que juntamente com 'checkout' irá criar uma nova branch e ao mesmo tempo alternaria para a nova branch criada. _resumidamente, ela está juntando o comando (git branch <nova_branch>) com o comando checkout_
 
 **MERGE**
 
+É usado para juntar branch. Para usar você precisa estar na branch 'principal' ou na branch que você quer mesclar. _Ex: Pense que temos 3 branch, sendo elas - main, comp e mit, se você quiser fundir a 'mit' na branch 'comp', você deve usar **git merge mit**, estando já na branch mit._
 
+**BRANCH**
+
+Cria uma nova branch.
 
 **WORK DIRECTORY**
 
 Lugar de trabalho onde os arquivos estão sendo alterados por você, antes mesmo de serem enviados para staging.
+
+
+
+**ALGUNS OUTROS COMANDOS**
+
+--version: mostra a versão do git na sua maquina.
+
+status: mostra como está o estado da área de trabalho.
 
 
 
