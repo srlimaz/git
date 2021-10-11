@@ -106,7 +106,9 @@ Reverte um commit criando um novo commit. _HEAD~<NUM> pode ser usado aqui para e
 
 Lugar de trabalho onde os arquivos estão sendo alterados por você, antes mesmo de serem enviados para staging.
 
+**VERSIONAMENTO SEMÂNTICO**
 
+https://semver.org/lang/pt-BR/
 
 **ALGUNS OUTROS COMANDOS**
 
