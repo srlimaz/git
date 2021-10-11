@@ -24,7 +24,7 @@ Adiciona arquivo ao 'staging', (staging é o lugar onde o arquivo vai ficar ante
 
 Adiciona arquivo para o repositório local do git, saindo de 'staging'. 
 
-- **-m:**  serve para inserir um comentário ao commit.
+- **-m:**  serve para inserir um comentário ao commit. 
 
 **PUSH**
 
@@ -46,6 +46,10 @@ Lembre-se
 
 - -b: é um flag que juntamente com 'checkout' irá criar uma nova branch e ao mesmo tempo alternaria para a nova branch criada. _resumidamente, ela está juntando o comando (git branch <nova_branch>) com o comando checkout_
 
+**CLONE**
+
+Serve para replicar um repositório.
+
 **MERGE**
 
 É usado para juntar branch. Para usar você precisa estar na branch 'principal' ou na branch que você quer mesclar. _Ex: Pense que temos 3 branch, sendo elas - main, comp e mit, se você quiser fundir a 'mit' na branch 'comp', você deve usar **git merge mit**, estando já na branch mit._
@@ -53,6 +57,32 @@ Lembre-se
 **BRANCH**
 
 Cria uma nova branch.
+
+**STASH**
+
+É usado para 'guardar' seu momento atual de trabalho, guardando tudo que não está 'commitado'.
+
+Se usado sem nenhum comando posterior, o git irá gerar uma msg e salvar.
+
+- save: serve para deixar uma mensagem no stash que será salvo.
+- list: ver todos os stash salvos
+- pop: carregar um 'ponto' salvo, fazendo com que ele volte todos os arquivos não 'commitados' no momento do save.
+- clear: limpar a lista, onde os stash são salvos.
+
+**LOG**
+
+Puxa todo o histórico do repositório.
+
+Para navegar no histórico basta usar 'Page Down' e 'Page Up'. Se desejar sair do modo de visualização do log, basta digitar "q" ou então, colocar ":" e depois digitar "q".
+
+Para chamar o histórico de uma pasta especifica dentro do repositório, basta digitar **git log <nome-da-pasta>**. _Até mesmo para ver histórico de um arquivo em especifico, o comando é o mesmo, basta apenas colocar o nome do arquivo no lugar que da pasta_
+
+- --oneline: traz o histórico de uma forma resumida.
+- --graph: mostra o histórico um pouco mais ilustrado.
+
+**RESET**
+
+
 
 **WORK DIRECTORY**
 
@@ -65,6 +95,16 @@ Lugar de trabalho onde os arquivos estão sendo alterados por você, antes mesmo
 --version: mostra a versão do git na sua maquina.
 
 status: mostra como está o estado da área de trabalho.
+
+ls: mostra todas as pastas no local que você está.
+
+clear: limpar a janela de comandos.
+
+gitk: mostra todo o repositório de forma gráfica. (Apenas no Windows não é necessario instalar uma GUI [graphical user interface]).
+
+mkdir: criar uma pasta
+
+cd: entrar em uma pasta
 
 
 
