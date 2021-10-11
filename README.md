@@ -28,6 +28,8 @@ Adiciona arquivo para o repositório local do git, saindo de 'staging'.
 
 Digitando dentro do commit, você pode usar 'Ref #<num>' para referenciar um issues no github, da mesma forma usar o 'closes #<num>' para referenciar e fechar o issues.
 
+https://www.conventionalcommits.org/en/v1.0.0/
+
 **PUSH**
 
 Envia (empurra) o repositório local para o repositório remoto.
