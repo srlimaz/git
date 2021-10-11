@@ -82,7 +82,23 @@ Para chamar o histórico de uma pasta especifica dentro do repositório, basta d
 
 **RESET**
 
+Reverte um commit tirando do repositório local. 
 
+HEAD~<num>: reverte na sequencia que os commit foram enviados. No <num> representa quantos commit ele vai reverter.
+
+--soft: revertendo o commit, trazendo todas as alterações para o staging. 
+
+​	HEAD~<NUM> pode ser usado logo apos o --soft para informar que ele irá reverter na sequencia de X commit para staging.
+
+--mixed: reverte os arquivos 'commitados' para o 'working directory'. _Também pode ser usado com o HEAD~<NUM> no final._
+
+--hard: apaga o commit, resultando em perca de código. _Também pode ser usado com o HEAD~<NUM> no final._
+
+**Lembre-se que se usar apenas o comando _'git reset <sha>'_ ou _'git reset HEAD~<NUM>'_ ele irá interpretar como --hard.**
+
+**REVERT**
+
+Reverte um commit criando um novo commit. _HEAD~<NUM> pode ser usado aqui para escolher qual commit o 'revert' irá se basear.
 
 **WORK DIRECTORY**
 
