@@ -24,7 +24,9 @@ Adiciona arquivo ao 'staging', (staging é o lugar onde o arquivo vai ficar ante
 
 Adiciona arquivo para o repositório local do git, saindo de 'staging'. 
 
-- **-m:**  serve para inserir um comentário ao commit. 
+- **-m:**  serve para inserir um comentário ao commit. (obrigatório)
+
+Digitando dentro do commit, você pode usar 'Ref #<num>' para referenciar um issues no github, da mesma forma usar o 'closes #<num>' para referenciar e fechar o issues.
 
 **PUSH**
 
