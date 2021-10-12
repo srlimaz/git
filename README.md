@@ -104,6 +104,14 @@ HEAD~<num>: reverte na sequencia que os commit foram enviados. No <num> represen
 
 Reverte um commit criando um novo commit. _HEAD~<NUM> pode ser usado aqui para escolher qual commit o 'revert' irá se basear.
 
+**ALIAS**
+
+Cria um atalho para outros comandos.
+
+Ex: **git config --global alias.<atalho> <comando>**
+
+Para tirar o atalho basta digitar: **git config --global --unset alias.<atalho>**
+
 **WORK DIRECTORY**
 
 Lugar de trabalho onde os arquivos estão sendo alterados por você, antes mesmo de serem enviados para staging.
